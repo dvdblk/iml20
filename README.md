@@ -2,6 +2,13 @@
 
 Solutions to the ML assignments. 🤖
 
+| Task |              Description              | Baseline score* (hard) | Submission score* (best) | Status |
+|:----:|:-------------------------------------:|:----------------------:|:------------------------:|:------:|
+|  1a  | Cross-validation for Ridge Regression |      31.6546347611     |       16.3138068718      |    ✅   |
+|  1b  | Regression                            |      4.91556883861     |             -            |    ❌   |
+
+*Lower is better
+
 ## Getting started
 
 ### Requirements
