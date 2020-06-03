@@ -5,3 +5,4 @@ dependencies:
   - pandas
   - scikit-learn
   - tqdm          # https://tqdm.github.io
+  - ipykernel

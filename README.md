@@ -21,10 +21,16 @@ Run this from the root folder:
 
 `conda env create --file environment.yml`
 
-Or if you need to update one of the conda packages:
+Or if you need to **update** one of the conda packages:
 
 `conda env update --file environment.yml`
 
-Lastly, activate the `iml` environment:
+Activate the `iml` environment:
 
 `conda activate iml`
+
+### Jupyter notebook + Conda
+
+After installing the `iml` conda env:
+
+`python -m ipykernel install --user --name=iml`
