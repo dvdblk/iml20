@@ -18,7 +18,7 @@ def get_score(df_true, df_submission):
     print(task1, task2, task3)
     return score
 
-filename = 'prediction.csv'
+filename = 'prediction_train.csv'
 df_submission = pd.read_csv(filename)
 
 # generate a baseline based on sample.zip
