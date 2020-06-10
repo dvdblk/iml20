@@ -6,3 +6,4 @@ dependencies:
   - scikit-learn
   - tqdm          # https://tqdm.github.io
   - ipykernel
+  - matplotlib 
