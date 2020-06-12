@@ -7,8 +7,11 @@ dependencies:
   - tqdm          # https://tqdm.github.io
   - ipykernel
   - matplotlib 
-  - pytorch
+  - pytorch::pytorch=1.5.0
   - pytorch::torchvision
+  - cudatoolkit=10.2
+  - conda-forge::opencv
   - pip
   - pip:
     - opencv-python
+    - ipywidgets
