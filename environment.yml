@@ -6,12 +6,12 @@ dependencies:
   - scikit-learn
   - tqdm          # https://tqdm.github.io
   - ipykernel
-  - matplotlib 
+  - matplotlib
   - pytorch::pytorch=1.5.0
   - pytorch::torchvision
-  - cudatoolkit=10.2
   - conda-forge::opencv
   - pip
   - pip:
     - opencv-python
     - ipywidgets
+    - Keras
